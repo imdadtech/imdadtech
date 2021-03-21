@@ -1,390 +1,74 @@
-@charset "UTF-8";
-@keyframes typed {
-  /* string 1, char 1 */
-  0%, 0.6162839506% {
-    content: "I";
-  }
-  /* string 1, char 2 */
-  0.6172839506%, 1.2335679012% {
-    content: "IM";
-  }
-  /* string 1, char 3 */
-  1.2345679012%, 1.8508518519% {
-    content: "IMD";
-  }
-  /* string 1, char 4 */
-  1.8518518519%, 2.4681358025% {
-    content: "IMDA";
-  }
-  /* string 1, char 5 */
-  2.4691358025%, 3.0854197531% {
-    content: "IMDAD";
-  }
-  /* string 1, char 6 */
-  3.0864197531%, 3.7027037037% {
-    content: "IMDAD ";
-  }
-  /* string 1, char 7 */
-  3.7037037037%, 4.3199876543% {
-    content: "IMDAD T";
-  }
-  /* string 1, char 8 */
-  4.3209876543%, 4.9372716049% {
-    content: "IMDAD TE";
-  }
-  /* string 1, char 9 */
-  4.9382716049%, 5.5545555556% {
-    content: "IMDAD TEC";
-  }
-  /* string 1, char 10 */
-  5.5555555556%, 19.011345679% {
-    content: "IMDAD TECH";
-  }
-  /* string 1, char 11 */
-  19.012345679%, 19.5051728395% {
-    content: "IMDAD TEC";
-  }
-  /* string 1, char 12 */
-  19.5061728395%, 19.999% {
-    content: "IMDAD TE";
-  }
-  /* string 1, char 13 */
-  20%, 20.4928271605% {
-    content: "IMDAD T";
-  }
-  /* string 1, char 14 */
-  20.4938271605%, 20.986654321% {
-    content: "IMDAD ";
-  }
-  /* string 1, char 15 */
-  20.987654321%, 21.4804814815% {
-    content: "IMDAD";
-  }
-  /* string 1, char 16 */
-  21.4814814815%, 21.974308642% {
-    content: "IMDA";
-  }
-  /* string 1, char 17 */
-  21.975308642%, 22.4681358025% {
-    content: "IMD";
-  }
-  /* string 1, char 18 */
-  22.4691358025%, 22.961962963% {
-    content: "IM";
-  }
-  /* string 1, char 19 */
-  22.962962963%, 23.4557901235% {
-    content: "I";
-  }
-  /* string 1, char 20 */
-  23.4567901235%, 29.6286296296% {
-    content: "​";
-  }
-  /* string 2, char 1 */
-  29.6296296296%, 30.2459135802% {
-    content: "I";
-  }
-  /* string 2, char 2 */
-  30.2469135802%, 30.8631975309% {
-    content: "It";
-  }
-  /* string 2, char 3 */
-  30.8641975309%, 31.4804814815% {
-    content: "It ";
-  }
-  /* string 2, char 4 */
-  31.4814814815%, 32.0977654321% {
-    content: "It t";
-  }
-  /* string 2, char 5 */
-  32.0987654321%, 32.7150493827% {
-    content: "It ty";
-  }
-  /* string 2, char 6 */
-  32.7160493827%, 33.3323333333% {
-    content: "It typ";
-  }
-  /* string 2, char 7 */
-  33.3333333333%, 33.949617284% {
-    content: "It type";
-  }
-  /* string 2, char 8 */
-  33.950617284%, 34.5669012346% {
-    content: "It typed";
-  }
-  /* string 2, char 9 */
-  34.5679012346%, 35.1841851852% {
-    content: "It typed ";
-  }
-  /* string 2, char 10 */
-  35.1851851852%, 35.8014691358% {
-    content: "It typed t";
-  }
-  /* string 2, char 11 */
-  35.8024691358%, 36.4187530864% {
-    content: "It typed th";
-  }
-  /* string 2, char 12 */
-  36.4197530864%, 37.036037037% {
-    content: "It typed thi";
-  }
-  /* string 2, char 13 */
-  37.037037037%, 37.6533209877% {
-    content: "It typed this";
-  }
-  /* string 2, char 14 */
-  37.6543209877%, 38.2706049383% {
-    content: "It typed this ";
-  }
-  /* string 2, char 15 */
-  38.2716049383%, 38.8878888889% {
-    content: "It typed this o";
-  }
-  /* string 2, char 16 */
-  38.8888888889%, 39.5051728395% {
-    content: "It typed this on";
-  }
-  /* string 2, char 17 */
-  39.5061728395%, 40.1224567901% {
-    content: "It typed this one";
-  }
-  /* string 2, char 18 */
-  40.1234567901%, 40.7397407407% {
-    content: "It typed this one ";
-  }
-  /* string 2, char 19 */
-  40.7407407407%, 41.3570246914% {
-    content: "It typed this one t";
-  }
-  /* string 2, char 20 */
-  41.3580246914%, 41.974308642% {
-    content: "It typed this one to";
-  }
-  /* string 2, char 21 */
-  41.975308642%, 42.5915925926% {
-    content: "It typed this one too";
-  }
-  /* string 2, char 22 */
-  42.5925925926%, 43.2088765432% {
-    content: "It typed this one too ";
-  }
-  /* string 2, char 23 */
-  43.2098765432%, 56.6656666667% {
-    content: "It typed this one too 😱";
-  }
-  /* string 2, char 24 */
-  56.6666666667%, 57.1594938272% {
-    content: "It typed this one too ";
-  }
-  /* string 2, char 25 */
-  57.1604938272%, 57.6533209877% {
-    content: "It typed this one too";
-  }
-  /* string 2, char 26 */
-  57.6543209877%, 58.1471481481% {
-    content: "It typed this one to";
-  }
-  /* string 2, char 27 */
-  58.1481481481%, 58.6409753086% {
-    content: "It typed this one t";
-  }
-  /* string 2, char 28 */
-  58.6419753086%, 59.1348024691% {
-    content: "It typed this one ";
-  }
-  /* string 2, char 29 */
-  59.1358024691%, 59.6286296296% {
-    content: "It typed this one";
-  }
-  /* string 2, char 30 */
-  59.6296296296%, 60.1224567901% {
-    content: "It typed this on";
-  }
-  /* string 2, char 31 */
-  60.1234567901%, 60.6162839506% {
-    content: "It typed this o";
-  }
-  /* string 2, char 32 */
-  60.6172839506%, 61.1101111111% {
-    content: "It typed this ";
-  }
-  /* string 2, char 33 */
-  61.1111111111%, 61.6039382716% {
-    content: "It typed this";
-  }
-  /* string 2, char 34 */
-  61.6049382716%, 62.0977654321% {
-    content: "It typed thi";
-  }
-  /* string 2, char 35 */
-  62.0987654321%, 62.5915925926% {
-    content: "It typed th";
-  }
-  /* string 2, char 36 */
-  62.5925925926%, 63.0854197531% {
-    content: "It typed t";
-  }
-  /* string 2, char 37 */
-  63.0864197531%, 63.5792469136% {
-    content: "It typed ";
-  }
-  /* string 2, char 38 */
-  63.5802469136%, 64.0730740741% {
-    content: "It typed";
-  }
-  /* string 2, char 39 */
-  64.0740740741%, 64.5669012346% {
-    content: "It type";
-  }
-  /* string 2, char 40 */
-  64.5679012346%, 65.0607283951% {
-    content: "It typ";
-  }
-  /* string 2, char 41 */
-  65.0617283951%, 65.5545555556% {
-    content: "It ty";
-  }
-  /* string 2, char 42 */
-  65.5555555556%, 66.048382716% {
-    content: "It t";
-  }
-  /* string 2, char 43 */
-  66.049382716%, 66.5422098765% {
-    content: "It ";
-  }
-  /* string 2, char 44 */
-  66.5432098765%, 67.036037037% {
-    content: "It";
-  }
-  /* string 2, char 45 */
-  67.037037037%, 67.5298641975% {
-    content: "I";
-  }
-  /* string 2, char 46 */
-  67.5308641975%, 73.7027037037% {
-    content: "​";
-  }
-  /* string 3, char 1 */
-  73.7037037037%, 74.3199876543% {
-    content: "E";
-  }
-  /* string 3, char 2 */
-  74.3209876543%, 74.9372716049% {
-    content: "En";
-  }
-  /* string 3, char 3 */
-  74.9382716049%, 75.5545555556% {
-    content: "Enj";
-  }
-  /* string 3, char 4 */
-  75.5555555556%, 76.1718395062% {
-    content: "Enjo";
-  }
-  /* string 3, char 5 */
-  76.1728395062%, 76.7891234568% {
-    content: "Enjoy";
-  }
-  /* string 3, char 6 */
-  76.7901234568%, 77.4064074074% {
-    content: "Enjoy ";
-  }
-  /* string 3, char 7 */
-  77.4074074074%, 90.8631975309% {
-    content: "Enjoy ☕";
-  }
-  /* string 3, char 8 */
-  90.8641975309%, 91.3570246914% {
-    content: "Enjoy ";
-  }
-  /* string 3, char 9 */
-  91.3580246914%, 91.8508518519% {
-    content: "Enjoy";
-  }
-  /* string 3, char 10 */
-  91.8518518519%, 92.3446790123% {
-    content: "Enjo";
-  }
-  /* string 3, char 11 */
-  92.3456790123%, 92.8385061728% {
-    content: "Enj";
-  }
-  /* string 3, char 12 */
-  92.8395061728%, 93.3323333333% {
-    content: "En";
-  }
-  /* string 3, char 13 */
-  93.3333333333%, 93.8261604938% {
-    content: "E";
-  }
-  /* string 3, char 14 */
-  93.8271604938%, 100% {
-    content: "​";
-  }
-}
-@keyframes beam-blink {
-  75% {
-    border-color: transparent;
-  }
-}
-* {
-  backface-visibility: hidden;
-}
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
-html, body {
-  height: 100%;
-}
-
-body {
+body{ 
   display: flex;
+  width: 100vw;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  background-color: #000;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.125), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #000, #000 2px, #111 3px);
-  background-repeat: repeat-y;
-  background-position: center center;
-  background-size: cover, 100% 3px;
-  font-size: calc(10px + 2vw);
-  font-family: "VT323", monospace, sans-serif;
-  color: #3f3;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-body::after {
-  content: "imdad​";
-  position: relative;
-  top: -13px;
-  display: inline-block;
-  padding-right: 3px;
-  padding-right: calc(3px + 0.1vw);
-  border-right: 10px solid rgba(51, 255, 51, 0.75);
-  border-right: calc(1.1vw + 4px) solid rgba(51, 255, 51, 0.75);
-  text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
-  white-space: nowrap;
-  animation: typed 16.2s linear 1s infinite, beam-blink 1s infinite;
-}
-@media (max-width: 575px) {
-  body::after {
-    top: -33px;
-  }
-}
-body::before {
-  content: "3 strings / 40 chars / 16.2s duration";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 3px 0;
-  background: #00f;
+  margin: 0;
+  background: #131313;
   color: #fff;
-  text-align: center;
-  font-size: 18px;
-  letter-spacing: 0.7px;
-  white-space: pre-wrap;
+  font-size: 96px;
+  font-family: 'Fira Mono', monospace;
+  letter-spacing: -7px;
 }
-@media (max-width: 575px) {
-  body::before {
-    content: "3 strings \a 40 chars \a 16.2s duration";
+
+div{
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
   }
 }
 
-/*# sourceMappingURL=imdadTech.css.map */
+div:before,
+div:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+div:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+div:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
+}
