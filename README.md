@@ -4,6 +4,7 @@
     </head>
   <body>
   <h1> IMDAD TECH</h1>
+  <img src="Assets/imgs/WhatsApp Image 2021-03-21 at 21.25.09.jpeg" alt="logo Imdad Tech">
   </body>
 </html>  
   
