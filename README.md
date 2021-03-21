@@ -3,7 +3,7 @@
         <link type="text/css" rel="stylesheet" href="/Assets/CSS/imdadTech.css">
     </head>
   <body>
-  <p> IMDAD TECH</p>
+  <h1> IMDAD TECH</h1>
   </body>
 </html>  
   
