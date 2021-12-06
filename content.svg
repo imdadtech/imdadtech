@@ -3,8 +3,8 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .avatar {
-                    width: 250px;
-                    height: 250px;
+                    width: 200px;
+                    height: 200px;
                     border-radius: 80%;
                    background-color: blue;
                 }
