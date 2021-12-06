@@ -6,12 +6,12 @@
                     width: 200px;
                     height: 200px;
                     border-radius: 60%;
-                   
+                    background-color: red;
                 }
             </style>
             <div class="container">
                 
-                <img src="./logo.jpeg" class="avatar"/>
+                <img src="https://github.com/imdadAdelabou/imdadAdelabou/blob/main/logo.jpeg" class="avatar"/>
             </div>
         </div>
     </foreignObject>
