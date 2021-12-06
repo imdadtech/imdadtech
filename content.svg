@@ -7,6 +7,9 @@
                     height: 200px;
                     border-radius: 80%;
                    background-color: blue;
+                   top: 0;
+                   left: 0;
+                   position: absolute;
                 }
                 .center {
                     display: flex;
@@ -42,7 +45,7 @@
 }
 
 .wave {
-   
+    position: relative;
 }
             </style>
             <div class="container">
