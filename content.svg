@@ -39,16 +39,16 @@
 }
 
 .wave {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
             </style>
             <div class="container">
-                <div class="wave center">
-                    <div class="avatar"></div>
-                    <div class="sonar-wave"></div>
+                    <div class="wave center">
+                        <div class="avatar"></div>
+                        <div class="sonar-wave"></div>
+                    </div>
                     <!-- <img href="https://raw.githubusercontent.com/imdadAdelabou/imdadAdelabou/main/logo.jpeg" class="avatar"/> -->
-               </div>
             </div>
         </div>
     </foreignObject>
