@@ -16,8 +16,8 @@
 
                 .sonar-wave {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
     border-radius: 100%;
     background-color: #089de5;
     opacity: 0;
