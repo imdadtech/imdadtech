@@ -6,12 +6,12 @@
                     width: 200px;
                     height: 200px;
                     border-radius: 60%;
-                    background-color: red;
+                    background-color: blue;
                 }
             </style>
             <div class="container">
-                <div class="avatar"> </div>
-                <!-- <img src="../imgs/logo.jpeg" class="avatar"/> -->
+                
+                <img src="../imgs/logo.jpeg" class="avatar"/>
             </div>
         </div>
     </foreignObject>
