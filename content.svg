@@ -7,9 +7,6 @@
                     height: 200px;
                     border-radius: 80%;
                    background-color: blue;
-                   top: 0;
-                   left: 330px;
-                   position: absolute;
                 }
                 .center {
                     display: flex;
@@ -21,8 +18,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    left:0;
+    
+    
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -45,13 +42,15 @@
 }
 
 .wave {
-    position: relative;
+  
 }
             </style>
             <div class="container">
                     <div class="wave center">
                         <div class="avatar"></div>
+                        <div class="center">
                         <div class="sonar-wave"></div>
+                        </div>
                     </div>
                     <!-- <img href="https://raw.githubusercontent.com/imdadAdelabou/imdadAdelabou/main/logo.jpeg" class="avatar"/> -->
             </div>
