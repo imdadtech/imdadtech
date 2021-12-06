@@ -3,16 +3,21 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .avatar {
-                    width: 200px;
-                    height: 200px;
-                    border-radius: 60%;
-                   
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 80%;
+                   background-color: blue;
+                }
+
+                .center {
+
                 }
             </style>
             <div class="container">
-                
-                <img href="https://raw.githubusercontent.com/imdadAdelabou/imdadAdelabou/main/logo.jpeg" class="avatar"/>
-               
+                <div class="center">
+                    <div class="avatar"></div>
+                    <!-- <img href="https://raw.githubusercontent.com/imdadAdelabou/imdadAdelabou/main/logo.jpeg" class="avatar"/> -->
+               </div>
             </div>
         </div>
     </foreignObject>
