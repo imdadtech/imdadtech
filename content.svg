@@ -37,9 +37,14 @@
         opacity: 0;
     }
 }
+
+.wave {
+    width: 400px;
+    height: 400px;
+}
             </style>
             <div class="container">
-                <div class="center">
+                <div class="wave center">
                     <div class="avatar"></div>
                     <div class="sonar-wave"></div>
                     <!-- <img href="https://raw.githubusercontent.com/imdadAdelabou/imdadAdelabou/main/logo.jpeg" class="avatar"/> -->
