@@ -9,7 +9,8 @@
                 }
             </style>
             <div class="container">
-                <img src="../imgs/logo.jpeg" class="avatar"/>
+                <div class="avatar"> </div>
+                <!-- <img src="../imgs/logo.jpeg" class="avatar"/> -->
             </div>
         </div>
     </foreignObject>
