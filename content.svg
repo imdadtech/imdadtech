@@ -13,10 +13,24 @@
                     justify-content: center;
                     align-items: center;
                 }
+                .sonar-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: #089de5;
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+    animation: sonarWave 2s linear infinite;
+}
             </style>
             <div class="container">
                 <div class="center">
                     <div class="avatar"></div>
+                    <div class="sonar-wave"></div>
                     <!-- <img href="https://raw.githubusercontent.com/imdadAdelabou/imdadAdelabou/main/logo.jpeg" class="avatar"/> -->
                </div>
             </div>
