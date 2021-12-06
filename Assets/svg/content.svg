@@ -6,6 +6,7 @@
                     width: 200px;
                     height: 200px;
                     border-radius: 60%;
+                    background-color: red;
                 }
             </style>
             <div class="container">
