@@ -36,6 +36,6 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=imdadtech&show_icons=true&locale=en&layout=compact" alt="imdadtech" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=imdadtech&show_icons=true&locale=en" alt="imdadtech" /></p>
+<p>&nbsp;[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=imdadtech)](https://git.io/streak-stats)</p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user="imdadtech" alt="imdadtech" /></p>
